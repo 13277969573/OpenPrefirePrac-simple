@@ -160,7 +160,9 @@ public class OpenPrefirePrac : BasePlugin
     // [GameEventHandler]
     public void OnClientPutInServerHandler(int slot)
     {
+
         var player = Utilities.GetPlayerFromSlot(slot);
+        _logger.LogWarning("OnClientPutInServerHandler Start {Slot} - {PlayerName},isBot: {IsBot}", slot, player?.PlayerName, player?.IsBot);
 
         if (player == null || !player.IsValid || player.IsHLTV)
         {
@@ -201,6 +203,8 @@ public class OpenPrefirePrac : BasePlugin
     public HookResult OnPlayerDisconnect(EventPlayerDisconnect @event, GameEventInfo info)
     {
         var player = @event.Userid;
+        _logger.LogWarning("OnPlayerDisconnect Start {PlayerName} - {PlayerSlot},isBot: {IsBot}", player?.PlayerName, player?.Slot, player?.IsBot);
+
 
         if (player == null || player.IsBot)
         {
@@ -227,6 +231,8 @@ public class OpenPrefirePrac : BasePlugin
 
     public void OnMapStartHandler(string map)
     {
+        _logger.LogWarning("OnMapStartHandler Start {MapName}", _mapName);
+
         _mapName = map;
 
         // load practices available in current map, from corresponding map directory.
@@ -259,7 +265,9 @@ public class OpenPrefirePrac : BasePlugin
     [GameEventHandler]
     public HookResult OnPlayerSpawn(EventPlayerSpawn @event, GameEventInfo info)
     {
+
         var playerOrBot = @event.Userid;
+        _logger.LogWarning("OnPlayerSpawn Start {PlayerOrBotName} - {PlayerOrBotSlot},isBot: {IsBot}", playerOrBot?.PlayerName, playerOrBot?.Slot, playerOrBot?.IsBot);
         
         if (playerOrBot == null || !playerOrBot.IsValid|| playerOrBot.IsHLTV)
         {
@@ -346,7 +354,8 @@ public class OpenPrefirePrac : BasePlugin
     public HookResult OnPlayerDeath(EventPlayerDeath @event, GameEventInfo info)
     {
         var playerOrBot = @event.Userid;
-        
+        _logger.LogWarning("OnPlayerDeath Start {PlayerOrBotName} - {PlayerOrBotSlot},isBot: {IsBot}", playerOrBot?.PlayerName, playerOrBot?.Slot, playerOrBot?.IsBot);
+
         if (playerOrBot == null || !playerOrBot.IsValid || playerOrBot.IsHLTV)
         {
             return HookResult.Continue;
@@ -455,6 +464,7 @@ public class OpenPrefirePrac : BasePlugin
 
     public void OnRouteSelect(CCSPlayerController player, ChatMenuOption option)
     {
+        _logger.LogWarning("OnRouteSelect Start {PlayerName} - {PlayerSlot},practiceName: {PracticeName}", player?.PlayerName, player?.Slot, option.Text);
         if (_playerStatus == null)
             return;
             
@@ -465,6 +475,7 @@ public class OpenPrefirePrac : BasePlugin
 
     public void OnForceExitPrefireMode(CCSPlayerController player, ChatMenuOption option)
     {
+        _logger.LogWarning("OnForceExitPrefireMode Start {PlayerName} - {PlayerSlot}", player?.PlayerName, player?.Slot);
         ForceStopPractice(player);
         CloseCurrentMenu(player);
     }
@@ -744,7 +755,7 @@ public class OpenPrefirePrac : BasePlugin
 
     private void AddBot(CCSPlayerController player, int numberOfBots)
     {
-        _logger.LogInformation("Creating {NumberOfBots} bots.", numberOfBots);
+        _logger.LogInformation("AddBot: Creating {NumberOfBots} bots.", numberOfBots);
 
         // Add bots directly (no request queue in single player mode)
         for (var i = 0; i < numberOfBots; i++)
