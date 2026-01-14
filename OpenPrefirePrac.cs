@@ -174,8 +174,23 @@ public class OpenPrefirePrac : BasePlugin
             // For bots: Add to managed bot list if player is practicing
             if (_currentPlayer != null && _playerStatus != null && _playerStatus.PracticeIndex >= 0)
             {
-                _botSlots.Add(slot);
-                _logger.LogInformation("Bot {PlayerName}, slot: {Slot} has been added.", player.PlayerName, slot);
+                var practiceIndex = _playerStatus.PracticeIndex;
+                var requiredBots = _practices[practiceIndex].NumBots;
+                
+                // Only add bot if we haven't reached the required number
+                if (_botSlots.Count < requiredBots)
+                {
+                    _botSlots.Add(slot);
+                    _logger.LogInformation("Bot {PlayerName}, slot: {Slot} has been added. ({CurrentCount}/{RequiredCount})", 
+                        player.PlayerName, slot, _botSlots.Count, requiredBots);
+                }
+                else
+                {
+                    // Excess bot created by server, kick it immediately
+                    _logger.LogWarning("Excess bot {PlayerName}, slot: {Slot} detected. Kicking... ({CurrentCount}/{RequiredCount})", 
+                        player.PlayerName, slot, _botSlots.Count, requiredBots);
+                    KickBot(slot);
+                }
             }
             else
             {
@@ -1123,11 +1138,12 @@ public class OpenPrefirePrac : BasePlugin
         // sv_cheats!.SetValue(_serverStatus.sv_cheats);
         // Server.ExecuteCommand("sv_cheats " + _serverStatus.sv_cheats.ToString());
 
-        // Restore warmup status
-        if (!_serverStatus.WarmupStatus)
-        {
-            Server.ExecuteCommand("mp_warmup_end");
-        }
+        // Note: Don't restore warmup status to avoid triggering "warmup end" animation
+        // For a practice server, keeping warmup mode is more appropriate
+        // if (!_serverStatus.WarmupStatus)
+        // {
+        //     Server.ExecuteCommand("mp_warmup_end");
+        // }
 
         _logger.LogInformation("Values of convars restored.");
     }

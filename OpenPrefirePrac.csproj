@@ -5,6 +5,10 @@
     <Nullable>enable</Nullable>
 
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+	 
+	 <!-- Output directly to CS2 server plugin directory -->
+    <OutputPath>E:\code\electron-cs2util-test\cs2util\addons\counterstrikesharp\plugins\OpenPrefirePrac\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
