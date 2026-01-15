@@ -1,0 +1,366 @@
+2026-01-15 20:38:04.339 +08:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2026-01-15 20:38:04.395 +08:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2026-01-15 20:38:04.398 +08:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 4 game data entries from d:\program files (x86)\steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\addons\counterstrikesharp\gamedata\CS2TraceRay.gamedata.json
+2026-01-15 20:38:04.400 +08:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 45 game data entries from d:\program files (x86)\steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\addons\counterstrikesharp\gamedata\gamedata.json
+2026-01-15 20:38:04.400 +08:00 [INFO] (cssharp:Core) Loading Admins from d:\program files (x86)\steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\addons\counterstrikesharp\configs\admins.json
+2026-01-15 20:38:04.400 +08:00 [WARN] (cssharp:AdminManager) Admin data file not found. Skipping admin data load.
+2026-01-15 20:38:04.400 +08:00 [INFO] (cssharp:Core) Loading Admin Groups from d:\program files (x86)\steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\addons\counterstrikesharp\configs\admin_groups.json
+2026-01-15 20:38:04.401 +08:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from d:\program files (x86)\steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\addons\counterstrikesharp\configs\admin_overrides.json
+2026-01-15 20:38:04.595 +08:00 [INFO] (cssharp:PluginContext) Loading plugin FlashingHtmlHudFix
+2026-01-15 20:38:04.602 +08:00 [INFO] (cssharp:PluginContext) Finished loading plugin FlashingHtmlHudFix
+2026-01-15 20:38:04.865 +08:00 [INFO] (cssharp:PluginContext) Loading plugin OpenPrefirePrac
+2026-01-15 20:38:04.870 +08:00 [WARN] plugin:Open Prefire Prac OnMapStartHandler Start null
+2026-01-15 20:38:04.874 +08:00 [INFO] plugin:Open Prefire Prac Map folder for map de_ancient found.
+2026-01-15 20:38:04.875 +08:00 [INFO] plugin:Open Prefire Prac Map folder for map de_anubis found.
+2026-01-15 20:38:04.875 +08:00 [INFO] plugin:Open Prefire Prac Map folder for map de_dust2 found.
+2026-01-15 20:38:04.875 +08:00 [INFO] plugin:Open Prefire Prac Map folder for map de_inferno found.
+2026-01-15 20:38:04.875 +08:00 [INFO] plugin:Open Prefire Prac Map folder for map de_mirage found.
+2026-01-15 20:38:04.875 +08:00 [INFO] plugin:Open Prefire Prac Map folder for map de_nuke found.
+2026-01-15 20:38:04.875 +08:00 [INFO] plugin:Open Prefire Prac Map folder for map de_overpass found.
+2026-01-15 20:38:04.875 +08:00 [INFO] plugin:Open Prefire Prac Map folder for map de_train found.
+2026-01-15 20:38:04.875 +08:00 [INFO] plugin:Open Prefire Prac Map folder for map de_vertigo found.
+2026-01-15 20:38:04.875 +08:00 [WARN] plugin:Open Prefire Prac Failed to load practices on map null
+2026-01-15 20:38:04.875 +08:00 [INFO] plugin:Open Prefire Prac Plugin has been loaded. If the plugin is neither loaded along with server startup, nor reloaded on the fly, please reload it once to make it fully functional.
+2026-01-15 20:38:04.875 +08:00 [INFO] (cssharp:PluginContext) Finished loading plugin Open Prefire Prac
+2026-01-15 20:38:05.781 +08:00 [WARN] plugin:Open Prefire Prac OnMapStartHandler Start de_dust2
+2026-01-15 20:38:05.781 +08:00 [INFO] plugin:Open Prefire Prac Map folder for map de_ancient found.
+2026-01-15 20:38:05.782 +08:00 [INFO] plugin:Open Prefire Prac Map folder for map de_anubis found.
+2026-01-15 20:38:05.782 +08:00 [INFO] plugin:Open Prefire Prac Map folder for map de_dust2 found.
+2026-01-15 20:38:05.782 +08:00 [INFO] plugin:Open Prefire Prac Map folder for current map found.
+2026-01-15 20:38:05.782 +08:00 [INFO] plugin:Open Prefire Prac Map folder for map de_inferno found.
+2026-01-15 20:38:05.782 +08:00 [INFO] plugin:Open Prefire Prac Map folder for map de_mirage found.
+2026-01-15 20:38:05.782 +08:00 [INFO] plugin:Open Prefire Prac Map folder for map de_nuke found.
+2026-01-15 20:38:05.782 +08:00 [INFO] plugin:Open Prefire Prac Map folder for map de_overpass found.
+2026-01-15 20:38:05.782 +08:00 [INFO] plugin:Open Prefire Prac Map folder for map de_train found.
+2026-01-15 20:38:05.782 +08:00 [INFO] plugin:Open Prefire Prac Map folder for map de_vertigo found.
+2026-01-15 20:38:05.782 +08:00 [INFO] plugin:Open Prefire Prac Loading practices for map de_dust2.
+2026-01-15 20:38:05.788 +08:00 [INFO] plugin:Open Prefire Prac de_dust2 a_long Loaded.
+2026-01-15 20:38:05.788 +08:00 [INFO] plugin:Open Prefire Prac de_dust2 a_short Loaded.
+2026-01-15 20:38:05.788 +08:00 [INFO] plugin:Open Prefire Prac de_dust2 b_tunnel Loaded.
+2026-01-15 20:38:05.788 +08:00 [INFO] plugin:Open Prefire Prac de_dust2 ct_push_lower Loaded.
+2026-01-15 20:38:05.788 +08:00 [INFO] plugin:Open Prefire Prac de_dust2 ct_push_mid Loaded.
+2026-01-15 20:38:05.789 +08:00 [INFO] plugin:Open Prefire Prac de_dust2 mid_to_b Loaded.
+2026-01-15 20:38:08.789 +08:00 [WARN] plugin:Open Prefire Prac OnClientPutInServerHandler Start Slot:0 - Maximus, isBot:true, Team:NONE(0)
+2026-01-15 20:38:08.790 +08:00 [INFO] plugin:Open Prefire Prac Exec command: bot_kick Maximus
+2026-01-15 20:38:08.791 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Maximus - Slot:0, isBot:true, Team:NONE(0)
+2026-01-15 20:38:08.793 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Maximus - Slot:0, isBot:true, Team:NONE(0)
+2026-01-15 20:38:08.793 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Maximus - Slot:0, isBot:true, Team:T(2)
+2026-01-15 20:38:08.794 +08:00 [WARN] plugin:Open Prefire Prac OnClientPutInServerHandler Start Slot:1 - Trapper, isBot:true, Team:NONE(0)
+2026-01-15 20:38:08.794 +08:00 [INFO] plugin:Open Prefire Prac Exec command: bot_kick Trapper
+2026-01-15 20:38:08.795 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Trapper - Slot:1, isBot:true, Team:NONE(0)
+2026-01-15 20:38:08.796 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Trapper - Slot:1, isBot:true, Team:NONE(0)
+2026-01-15 20:38:08.796 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Trapper - Slot:1, isBot:true, Team:CT(3)
+2026-01-15 20:38:08.798 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDisconnect Start Maximus - 0,isBot: true
+2026-01-15 20:38:08.798 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDisconnect Start Trapper - 1,isBot: true
+2026-01-15 20:38:49.635 +08:00 [WARN] plugin:Open Prefire Prac OnClientPutInServerHandler Start Slot:2 - 老奶奶压AK, isBot:false, Team:NONE(0)
+2026-01-15 20:38:49.737 +08:00 [INFO] plugin:Open Prefire Prac Player 老奶奶压AK connected.
+2026-01-15 20:38:49.737 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start 老奶奶压AK - Slot:2, isBot:false, Team:NONE(0)
+2026-01-15 20:38:49.739 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start 老奶奶压AK - Slot:2, isBot:false, Team:NONE(0)
+2026-01-15 20:38:56.510 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start 老奶奶压AK - Slot:2, isBot:false, Team:T(2)
+2026-01-15 20:39:03.469 +08:00 [INFO] plugin:Open Prefire Prac tv_enable: false
+2026-01-15 20:39:03.469 +08:00 [INFO] plugin:Open Prefire Prac bot_allow_grenades: true
+2026-01-15 20:39:03.469 +08:00 [INFO] plugin:Open Prefire Prac bot_allow_shotguns: true
+2026-01-15 20:39:03.469 +08:00 [INFO] plugin:Open Prefire Prac mp_autoteambalance: true
+2026-01-15 20:39:03.469 +08:00 [INFO] plugin:Open Prefire Prac sv_alltalk: false
+2026-01-15 20:39:03.469 +08:00 [INFO] plugin:Open Prefire Prac sv_full_alltalk: false
+2026-01-15 20:39:03.469 +08:00 [INFO] plugin:Open Prefire Prac bot_allow_pistols: true
+2026-01-15 20:39:03.469 +08:00 [INFO] plugin:Open Prefire Prac bot_allow_rifles: true
+2026-01-15 20:39:03.469 +08:00 [INFO] plugin:Open Prefire Prac bot_allow_snipers: true
+2026-01-15 20:39:03.469 +08:00 [INFO] plugin:Open Prefire Prac sv_auto_adjust_bot_difficulty: true
+2026-01-15 20:39:03.470 +08:00 [INFO] plugin:Open Prefire Prac mp_buy_anywhere: 0
+2026-01-15 20:39:03.470 +08:00 [INFO] plugin:Open Prefire Prac mp_warmup_pausetimer: 0
+2026-01-15 20:39:03.470 +08:00 [INFO] plugin:Open Prefire Prac mp_free_armor: 0
+2026-01-15 20:39:03.470 +08:00 [INFO] plugin:Open Prefire Prac mp_limitteams: 2
+2026-01-15 20:39:03.470 +08:00 [INFO] plugin:Open Prefire Prac mp_maxmoney: 16000
+2026-01-15 20:39:03.470 +08:00 [INFO] plugin:Open Prefire Prac mp_startmoney: 800
+2026-01-15 20:39:03.470 +08:00 [INFO] plugin:Open Prefire Prac bot_difficulty: 2
+2026-01-15 20:39:03.470 +08:00 [INFO] plugin:Open Prefire Prac custom_bot_difficulty: 2
+2026-01-15 20:39:03.470 +08:00 [INFO] plugin:Open Prefire Prac mp_death_drop_gun: 1
+2026-01-15 20:39:03.470 +08:00 [INFO] plugin:Open Prefire Prac mp_death_drop_grenade: 2
+2026-01-15 20:39:03.470 +08:00 [INFO] plugin:Open Prefire Prac bot_quota: 0
+2026-01-15 20:39:03.470 +08:00 [INFO] plugin:Open Prefire Prac mp_respawn_immunitytime: -1
+2026-01-15 20:39:03.471 +08:00 [INFO] plugin:Open Prefire Prac mp_buytime: 20
+2026-01-15 20:39:03.471 +08:00 [INFO] plugin:Open Prefire Prac bot_max_vision_distance_override: -1
+2026-01-15 20:39:03.471 +08:00 [INFO] plugin:Open Prefire Prac bot_quota_mode: competitive
+2026-01-15 20:39:03.471 +08:00 [INFO] plugin:Open Prefire Prac mp_ct_default_melee: weapon_knife
+2026-01-15 20:39:03.471 +08:00 [INFO] plugin:Open Prefire Prac mp_t_default_melee: weapon_knife
+2026-01-15 20:39:03.471 +08:00 [INFO] plugin:Open Prefire Prac mp_bot_ai_bt: 
+2026-01-15 20:39:03.472 +08:00 [INFO] plugin:Open Prefire Prac Warmup Status: true
+2026-01-15 20:39:03.472 +08:00 [INFO] plugin:Open Prefire Prac Values of convars saved.
+2026-01-15 20:39:03.473 +08:00 [INFO] plugin:Open Prefire Prac Values of convars set.
+2026-01-15 20:39:03.473 +08:00 [INFO] plugin:Open Prefire Prac AddBot: Creating 6 bots. Player in T, bots will join CT
+2026-01-15 20:39:03.478 +08:00 [INFO] plugin:Open Prefire Prac Adding bot #1: bot_join_team CT, bot_add_ct
+2026-01-15 20:39:03.481 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start 老奶奶压AK - Slot:2, isBot:false, Team:T(2)
+2026-01-15 20:39:03.484 +08:00 [WARN] plugin:Open Prefire Prac OnClientPutInServerHandler Start Slot:3 - Rip, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.484 +08:00 [INFO] plugin:Open Prefire Prac Bot Rip, slot: 3 has been added. (1/6)
+2026-01-15 20:39:03.484 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Rip - Slot:3, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.486 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Rip - Slot:3, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.487 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Rip - Slot:3, isBot:true, Team:CT(3)
+2026-01-15 20:39:03.493 +08:00 [WARN] plugin:Open Prefire Prac OnClientPutInServerHandler Start Slot:4 - Shark, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.493 +08:00 [INFO] plugin:Open Prefire Prac Bot Shark, slot: 4 has been added. (2/6)
+2026-01-15 20:39:03.494 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Shark - Slot:4, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.495 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Shark - Slot:4, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.496 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Shark - Slot:4, isBot:true, Team:CT(3)
+2026-01-15 20:39:03.561 +08:00 [INFO] plugin:Open Prefire Prac Adding bot #2: bot_join_team CT, bot_add_ct
+2026-01-15 20:39:03.576 +08:00 [WARN] plugin:Open Prefire Prac OnClientPutInServerHandler Start Slot:5 - Ricksaw, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.576 +08:00 [INFO] plugin:Open Prefire Prac Bot Ricksaw, slot: 5 has been added. (3/6)
+2026-01-15 20:39:03.576 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Ricksaw - Slot:5, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.579 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Ricksaw - Slot:5, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.579 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Ricksaw - Slot:5, isBot:true, Team:CT(3)
+2026-01-15 20:39:03.581 +08:00 [WARN] plugin:Open Prefire Prac OnClientPutInServerHandler Start Slot:6 - Rebel, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.581 +08:00 [INFO] plugin:Open Prefire Prac Bot Rebel, slot: 6 has been added. (4/6)
+2026-01-15 20:39:03.581 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Rebel - Slot:6, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.583 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Rebel - Slot:6, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.583 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Rebel - Slot:6, isBot:true, Team:CT(3)
+2026-01-15 20:39:03.655 +08:00 [INFO] plugin:Open Prefire Prac Adding bot #3: bot_join_team CT, bot_add_ct
+2026-01-15 20:39:03.670 +08:00 [WARN] plugin:Open Prefire Prac OnClientPutInServerHandler Start Slot:7 - Delrow, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.670 +08:00 [INFO] plugin:Open Prefire Prac Bot Delrow, slot: 7 has been added. (5/6)
+2026-01-15 20:39:03.671 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Delrow - Slot:7, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.673 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Delrow - Slot:7, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.673 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Delrow - Slot:7, isBot:true, Team:CT(3)
+2026-01-15 20:39:03.675 +08:00 [WARN] plugin:Open Prefire Prac OnClientPutInServerHandler Start Slot:8 - Muhlik, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.675 +08:00 [INFO] plugin:Open Prefire Prac Bot Muhlik, slot: 8 has been added. (6/6)
+2026-01-15 20:39:03.675 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Muhlik - Slot:8, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.677 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Muhlik - Slot:8, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.678 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Muhlik - Slot:8, isBot:true, Team:CT(3)
+2026-01-15 20:39:03.680 +08:00 [INFO] plugin:Open Prefire Prac 老奶奶压AK moved to spawn point.
+2026-01-15 20:39:03.765 +08:00 [INFO] plugin:Open Prefire Prac Adding bot #4: bot_join_team CT, bot_add_ct
+2026-01-15 20:39:03.780 +08:00 [WARN] plugin:Open Prefire Prac OnClientPutInServerHandler Start Slot:9 - Gunner, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.780 +08:00 [WARN] plugin:Open Prefire Prac Excess bot Gunner, slot: 9 detected. Kicking... (6/6)
+2026-01-15 20:39:03.780 +08:00 [INFO] plugin:Open Prefire Prac Exec command: bot_kick Gunner
+2026-01-15 20:39:03.780 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Gunner - Slot:9, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.782 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Gunner - Slot:9, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.783 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Gunner - Slot:9, isBot:true, Team:CT(3)
+2026-01-15 20:39:03.784 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDisconnect Start Gunner - 9,isBot: true
+2026-01-15 20:39:03.784 +08:00 [WARN] plugin:Open Prefire Prac OnClientPutInServerHandler Start Slot:10 - Wolf, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.785 +08:00 [WARN] plugin:Open Prefire Prac Excess bot Wolf, slot: 10 detected. Kicking... (6/6)
+2026-01-15 20:39:03.785 +08:00 [INFO] plugin:Open Prefire Prac Exec command: bot_kick Wolf
+2026-01-15 20:39:03.785 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Wolf - Slot:10, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.786 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Wolf - Slot:10, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.787 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Wolf - Slot:10, isBot:true, Team:CT(3)
+2026-01-15 20:39:03.795 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDisconnect Start Wolf - 10,isBot: true
+2026-01-15 20:39:03.858 +08:00 [INFO] plugin:Open Prefire Prac Adding bot #5: bot_join_team CT, bot_add_ct
+2026-01-15 20:39:03.874 +08:00 [WARN] plugin:Open Prefire Prac OnClientPutInServerHandler Start Slot:11 - Shamat, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.874 +08:00 [WARN] plugin:Open Prefire Prac Excess bot Shamat, slot: 11 detected. Kicking... (6/6)
+2026-01-15 20:39:03.874 +08:00 [INFO] plugin:Open Prefire Prac Exec command: bot_kick Shamat
+2026-01-15 20:39:03.874 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Shamat - Slot:11, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.876 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Shamat - Slot:11, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.876 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Shamat - Slot:11, isBot:true, Team:CT(3)
+2026-01-15 20:39:03.877 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDisconnect Start Shamat - 11,isBot: true
+2026-01-15 20:39:03.878 +08:00 [WARN] plugin:Open Prefire Prac OnClientPutInServerHandler Start Slot:12 - Gunner, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.878 +08:00 [WARN] plugin:Open Prefire Prac Excess bot Gunner, slot: 12 detected. Kicking... (6/6)
+2026-01-15 20:39:03.879 +08:00 [INFO] plugin:Open Prefire Prac Exec command: bot_kick Gunner
+2026-01-15 20:39:03.879 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Gunner - Slot:12, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.880 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Gunner - Slot:12, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.880 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Gunner - Slot:12, isBot:true, Team:CT(3)
+2026-01-15 20:39:03.882 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:39:03.888 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDisconnect Start Gunner - 12,isBot: true
+2026-01-15 20:39:03.953 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Rip - 3,isBot: true
+2026-01-15 20:39:03.954 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Shark - 4,isBot: true
+2026-01-15 20:39:03.955 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Ricksaw - 5,isBot: true
+2026-01-15 20:39:03.955 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Rebel - 6,isBot: true
+2026-01-15 20:39:03.955 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Delrow - 7,isBot: true
+2026-01-15 20:39:03.955 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Muhlik - 8,isBot: true
+2026-01-15 20:39:03.955 +08:00 [INFO] plugin:Open Prefire Prac Adding bot #6: bot_join_team CT, bot_add_ct
+2026-01-15 20:39:03.956 +08:00 [INFO] plugin:Open Prefire Prac Map de_dust2 doesn't have breakables to break.
+2026-01-15 20:39:03.968 +08:00 [WARN] plugin:Open Prefire Prac OnClientPutInServerHandler Start Slot:13 - Stone, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.968 +08:00 [WARN] plugin:Open Prefire Prac Excess bot Stone, slot: 13 detected. Kicking... (6/6)
+2026-01-15 20:39:03.968 +08:00 [INFO] plugin:Open Prefire Prac Exec command: bot_kick Stone
+2026-01-15 20:39:03.968 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Stone - Slot:13, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.969 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Stone - Slot:13, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.970 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Stone - Slot:13, isBot:true, Team:CT(3)
+2026-01-15 20:39:03.971 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDisconnect Start Stone - 13,isBot: true
+2026-01-15 20:39:03.972 +08:00 [WARN] plugin:Open Prefire Prac OnClientPutInServerHandler Start Slot:14 - McCoy, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.972 +08:00 [WARN] plugin:Open Prefire Prac Excess bot McCoy, slot: 14 detected. Kicking... (6/6)
+2026-01-15 20:39:03.972 +08:00 [INFO] plugin:Open Prefire Prac Exec command: bot_kick McCoy
+2026-01-15 20:39:03.972 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start McCoy - Slot:14, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.973 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start McCoy - Slot:14, isBot:true, Team:NONE(0)
+2026-01-15 20:39:03.974 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start McCoy - Slot:14, isBot:true, Team:CT(3)
+2026-01-15 20:39:03.975 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:03.975 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:03.975 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:03.975 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:03.975 +08:00 [INFO] plugin:Open Prefire Prac Bot Rip freezed.
+2026-01-15 20:39:03.976 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:03.976 +08:00 [INFO] plugin:Open Prefire Prac Bot Rip freezed.
+2026-01-15 20:39:03.976 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:03.976 +08:00 [INFO] plugin:Open Prefire Prac Bot Rip freezed.
+2026-01-15 20:39:03.982 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDisconnect Start McCoy - 14,isBot: true
+2026-01-15 20:39:04.030 +08:00 [INFO] plugin:Open Prefire Prac Rip moved to spawn point.
+2026-01-15 20:39:04.030 +08:00 [INFO] plugin:Open Prefire Prac Rip moved to spawn point.
+2026-01-15 20:39:04.031 +08:00 [INFO] plugin:Open Prefire Prac Rip moved to spawn point.
+2026-01-15 20:39:04.061 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:04.061 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:04.061 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:04.061 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:04.061 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:04.061 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:04.155 +08:00 [INFO] plugin:Open Prefire Prac 老奶奶压AK moved to spawn point.
+2026-01-15 20:39:04.155 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:04.155 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:04.155 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:04.155 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:04.155 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:04.155 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:04.407 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Muhlik - Slot:8, isBot:true, Team:CT(3)
+2026-01-15 20:39:04.408 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Delrow - Slot:7, isBot:true, Team:CT(3)
+2026-01-15 20:39:04.409 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Rebel - Slot:6, isBot:true, Team:CT(3)
+2026-01-15 20:39:04.410 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Ricksaw - Slot:5, isBot:true, Team:CT(3)
+2026-01-15 20:39:04.410 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Shark - Slot:4, isBot:true, Team:CT(3)
+2026-01-15 20:39:04.411 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Rip - Slot:3, isBot:true, Team:CT(3)
+2026-01-15 20:39:04.415 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:39:04.819 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:04.820 +08:00 [INFO] plugin:Open Prefire Prac Bot Rip freezed.
+2026-01-15 20:39:04.820 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:04.820 +08:00 [INFO] plugin:Open Prefire Prac Bot Shark freezed.
+2026-01-15 20:39:04.820 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:04.820 +08:00 [INFO] plugin:Open Prefire Prac Bot Ricksaw freezed.
+2026-01-15 20:39:04.820 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:04.820 +08:00 [INFO] plugin:Open Prefire Prac Bot Rebel freezed.
+2026-01-15 20:39:04.820 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:04.820 +08:00 [INFO] plugin:Open Prefire Prac Bot Delrow freezed.
+2026-01-15 20:39:04.820 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:04.820 +08:00 [INFO] plugin:Open Prefire Prac Bot Muhlik freezed.
+2026-01-15 20:39:04.882 +08:00 [INFO] plugin:Open Prefire Prac Rip moved to spawn point.
+2026-01-15 20:39:04.882 +08:00 [INFO] plugin:Open Prefire Prac Shark moved to spawn point.
+2026-01-15 20:39:04.882 +08:00 [INFO] plugin:Open Prefire Prac Ricksaw moved to spawn point.
+2026-01-15 20:39:04.882 +08:00 [INFO] plugin:Open Prefire Prac Rebel moved to spawn point.
+2026-01-15 20:39:04.882 +08:00 [INFO] plugin:Open Prefire Prac Delrow moved to spawn point.
+2026-01-15 20:39:04.882 +08:00 [INFO] plugin:Open Prefire Prac Muhlik moved to spawn point.
+2026-01-15 20:39:10.757 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Muhlik - 8,isBot: true
+2026-01-15 20:39:10.760 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:39:11.102 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Muhlik - Slot:8, isBot:true, Team:CT(3)
+2026-01-15 20:39:11.601 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:11.601 +08:00 [INFO] plugin:Open Prefire Prac Bot Muhlik freezed.
+2026-01-15 20:39:11.663 +08:00 [INFO] plugin:Open Prefire Prac Muhlik moved to spawn point.
+2026-01-15 20:39:14.304 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Delrow - 7,isBot: true
+2026-01-15 20:39:14.304 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:39:14.648 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Delrow - Slot:7, isBot:true, Team:CT(3)
+2026-01-15 20:39:15.148 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:15.148 +08:00 [INFO] plugin:Open Prefire Prac Bot Delrow freezed.
+2026-01-15 20:39:15.210 +08:00 [INFO] plugin:Open Prefire Prac Delrow moved to spawn point.
+2026-01-15 20:39:20.960 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Rebel - 6,isBot: true
+2026-01-15 20:39:20.960 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:39:21.304 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Rebel - Slot:6, isBot:true, Team:CT(3)
+2026-01-15 20:39:21.804 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:21.804 +08:00 [INFO] plugin:Open Prefire Prac Bot Rebel freezed.
+2026-01-15 20:39:21.867 +08:00 [INFO] plugin:Open Prefire Prac Rebel moved to spawn point.
+2026-01-15 20:39:23.100 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Shark - 4,isBot: true
+2026-01-15 20:39:23.101 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:39:23.445 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Shark - Slot:4, isBot:true, Team:CT(3)
+2026-01-15 20:39:23.945 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:23.945 +08:00 [INFO] plugin:Open Prefire Prac Bot Shark freezed.
+2026-01-15 20:39:24.007 +08:00 [INFO] plugin:Open Prefire Prac Shark moved to spawn point.
+2026-01-15 20:39:24.882 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Ricksaw - 5,isBot: true
+2026-01-15 20:39:24.882 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:39:25.227 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Ricksaw - Slot:5, isBot:true, Team:CT(3)
+2026-01-15 20:39:25.726 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:25.726 +08:00 [INFO] plugin:Open Prefire Prac Bot Ricksaw freezed.
+2026-01-15 20:39:25.788 +08:00 [INFO] plugin:Open Prefire Prac Ricksaw moved to spawn point.
+2026-01-15 20:39:27.194 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Muhlik - 8,isBot: true
+2026-01-15 20:39:27.194 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:39:27.538 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Muhlik - Slot:8, isBot:true, Team:CT(3)
+2026-01-15 20:39:28.038 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:28.038 +08:00 [INFO] plugin:Open Prefire Prac Bot Muhlik freezed.
+2026-01-15 20:39:28.086 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Rip - 3,isBot: true
+2026-01-15 20:39:28.087 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:39:28.101 +08:00 [INFO] plugin:Open Prefire Prac Muhlik moved to spawn point.
+2026-01-15 20:39:28.429 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Rip - Slot:3, isBot:true, Team:CT(3)
+2026-01-15 20:39:28.930 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:28.930 +08:00 [INFO] plugin:Open Prefire Prac Bot Rip freezed.
+2026-01-15 20:39:28.992 +08:00 [INFO] plugin:Open Prefire Prac Rip moved to spawn point.
+2026-01-15 20:39:32.007 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Delrow - 7,isBot: true
+2026-01-15 20:39:32.008 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:39:32.351 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Delrow - Slot:7, isBot:true, Team:CT(3)
+2026-01-15 20:39:32.851 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:32.851 +08:00 [INFO] plugin:Open Prefire Prac Bot Delrow freezed.
+2026-01-15 20:39:32.914 +08:00 [INFO] plugin:Open Prefire Prac Delrow moved to spawn point.
+2026-01-15 20:39:33.725 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Rebel - 6,isBot: true
+2026-01-15 20:39:33.726 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:39:34.070 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Rebel - Slot:6, isBot:true, Team:CT(3)
+2026-01-15 20:39:34.570 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:34.570 +08:00 [INFO] plugin:Open Prefire Prac Bot Rebel freezed.
+2026-01-15 20:39:34.632 +08:00 [INFO] plugin:Open Prefire Prac Rebel moved to spawn point.
+2026-01-15 20:39:36.226 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Ricksaw - 5,isBot: true
+2026-01-15 20:39:36.226 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:39:36.570 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Ricksaw - Slot:5, isBot:true, Team:CT(3)
+2026-01-15 20:39:37.070 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:37.070 +08:00 [INFO] plugin:Open Prefire Prac Bot Ricksaw freezed.
+2026-01-15 20:39:37.132 +08:00 [INFO] plugin:Open Prefire Prac Ricksaw moved to spawn point.
+2026-01-15 20:39:37.664 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Shark - 4,isBot: true
+2026-01-15 20:39:37.664 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:39:38.008 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Shark - Slot:4, isBot:true, Team:CT(3)
+2026-01-15 20:39:38.507 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:38.507 +08:00 [INFO] plugin:Open Prefire Prac Bot Shark freezed.
+2026-01-15 20:39:38.570 +08:00 [INFO] plugin:Open Prefire Prac Shark moved to spawn point.
+2026-01-15 20:39:41.272 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Muhlik - 8,isBot: true
+2026-01-15 20:39:41.273 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:39:41.617 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Muhlik - Slot:8, isBot:true, Team:CT(3)
+2026-01-15 20:39:42.117 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:42.117 +08:00 [INFO] plugin:Open Prefire Prac Bot Muhlik freezed.
+2026-01-15 20:39:42.179 +08:00 [INFO] plugin:Open Prefire Prac Muhlik moved to spawn point.
+2026-01-15 20:39:42.882 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Rip - 3,isBot: true
+2026-01-15 20:39:42.882 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:39:43.226 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Rip - Slot:3, isBot:true, Team:CT(3)
+2026-01-15 20:39:43.726 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:43.726 +08:00 [INFO] plugin:Open Prefire Prac Bot Rip freezed.
+2026-01-15 20:39:43.788 +08:00 [INFO] plugin:Open Prefire Prac Rip moved to spawn point.
+2026-01-15 20:39:45.462 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Delrow - 7,isBot: true
+2026-01-15 20:39:45.463 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:39:45.804 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Delrow - Slot:7, isBot:true, Team:CT(3)
+2026-01-15 20:39:46.304 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:46.304 +08:00 [INFO] plugin:Open Prefire Prac Bot Delrow freezed.
+2026-01-15 20:39:46.366 +08:00 [INFO] plugin:Open Prefire Prac Delrow moved to spawn point.
+2026-01-15 20:39:49.681 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Rebel - 6,isBot: true
+2026-01-15 20:39:49.681 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:39:50.023 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Rebel - Slot:6, isBot:true, Team:CT(3)
+2026-01-15 20:39:50.523 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:50.523 +08:00 [INFO] plugin:Open Prefire Prac Bot Rebel freezed.
+2026-01-15 20:39:50.586 +08:00 [INFO] plugin:Open Prefire Prac Rebel moved to spawn point.
+2026-01-15 20:39:52.476 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Ricksaw - 5,isBot: true
+2026-01-15 20:39:52.477 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:39:52.820 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Ricksaw - Slot:5, isBot:true, Team:CT(3)
+2026-01-15 20:39:53.319 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:53.320 +08:00 [INFO] plugin:Open Prefire Prac Bot Ricksaw freezed.
+2026-01-15 20:39:53.382 +08:00 [INFO] plugin:Open Prefire Prac Ricksaw moved to spawn point.
+2026-01-15 20:39:53.616 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Shark - 4,isBot: true
+2026-01-15 20:39:53.617 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:39:53.960 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Shark - Slot:4, isBot:true, Team:CT(3)
+2026-01-15 20:39:54.460 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:54.460 +08:00 [INFO] plugin:Open Prefire Prac Bot Shark freezed.
+2026-01-15 20:39:54.523 +08:00 [INFO] plugin:Open Prefire Prac Shark moved to spawn point.
+2026-01-15 20:39:55.461 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Muhlik - 8,isBot: true
+2026-01-15 20:39:55.462 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:39:55.804 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerSpawn Start Muhlik - Slot:8, isBot:true, Team:CT(3)
+2026-01-15 20:39:56.304 +08:00 [INFO] plugin:Open Prefire Prac Trying to freeze a bot.
+2026-01-15 20:39:56.304 +08:00 [INFO] plugin:Open Prefire Prac Bot Muhlik freezed.
+2026-01-15 20:39:56.367 +08:00 [INFO] plugin:Open Prefire Prac Muhlik moved to spawn point.
+2026-01-15 20:39:58.944 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Rip - 3,isBot: true
+2026-01-15 20:39:58.944 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:39:58.945 +08:00 [INFO] plugin:Open Prefire Prac Exec command: bot_kick Rip
+2026-01-15 20:39:58.959 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDisconnect Start Rip - 3,isBot: true
+2026-01-15 20:40:01.509 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Delrow - 7,isBot: true
+2026-01-15 20:40:01.509 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:40:01.509 +08:00 [INFO] plugin:Open Prefire Prac Exec command: bot_kick Delrow
+2026-01-15 20:40:01.522 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDisconnect Start Delrow - 7,isBot: true
+2026-01-15 20:40:03.382 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Rebel - 6,isBot: true
+2026-01-15 20:40:03.383 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:40:03.383 +08:00 [INFO] plugin:Open Prefire Prac Exec command: bot_kick Rebel
+2026-01-15 20:40:03.397 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDisconnect Start Rebel - 6,isBot: true
+2026-01-15 20:40:04.272 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Ricksaw - 5,isBot: true
+2026-01-15 20:40:04.273 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:40:04.273 +08:00 [INFO] plugin:Open Prefire Prac Exec command: bot_kick Ricksaw
+2026-01-15 20:40:04.287 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDisconnect Start Ricksaw - 5,isBot: true
+2026-01-15 20:40:05.835 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Shark - 4,isBot: true
+2026-01-15 20:40:05.836 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:40:05.836 +08:00 [INFO] plugin:Open Prefire Prac Exec command: bot_kick Shark
+2026-01-15 20:40:05.850 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDisconnect Start Shark - 4,isBot: true
+2026-01-15 20:40:07.944 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start Muhlik - 8,isBot: true
+2026-01-15 20:40:07.945 +08:00 [INFO] plugin:Open Prefire Prac Setup player 老奶奶压AK with health.
+2026-01-15 20:40:07.945 +08:00 [INFO] plugin:Open Prefire Prac Exec command: bot_kick Muhlik
+2026-01-15 20:40:07.945 +08:00 [INFO] plugin:Open Prefire Prac Practice mode unset.
+2026-01-15 20:40:07.946 +08:00 [INFO] plugin:Open Prefire Prac Values of convars restored.
+2026-01-15 20:40:07.959 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDisconnect Start Muhlik - 8,isBot: true
+2026-01-15 20:40:13.881 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDisconnect Start 老奶奶压AK - 2,isBot: false
+2026-01-15 20:40:13.881 +08:00 [INFO] plugin:Open Prefire Prac Player disconnected. All resources cleaned up.
+2026-01-15 20:40:13.881 +08:00 [WARN] plugin:Open Prefire Prac OnPlayerDeath Start 老奶奶压AK - 2,isBot: false
