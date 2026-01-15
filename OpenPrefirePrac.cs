@@ -266,7 +266,7 @@ public class OpenPrefirePrac : BasePlugin
         for (var i = 0; i < mapDirectories.Count; i++)
         {
             var mapPath = mapDirectories[i].Substring(mapDirectories[i].LastIndexOf(Path.DirectorySeparatorChar) + 1);
-            _logger.LogDebug("Map folder for map {MapPath} found.", mapPath);
+            _logger.LogInformation("Map folder for map {MapPath} found.", mapPath);
             _availableMaps.Add(mapPath);
 
             if (mapPath.Equals(_mapName))
@@ -800,13 +800,13 @@ public class OpenPrefirePrac : BasePlugin
             AddTimer(i * 0.1f, () => {
                 if (player.TeamNum == (byte)CsTeam.CounterTerrorist)
                 {
-                    _logger.LogDebug("Adding bot #{BotIndex}: bot_join_team T, bot_add_t", botIndex + 1);
+                    _logger.LogInformation("Adding bot #{BotIndex}: bot_join_team T, bot_add_t", botIndex + 1);
                     Server.ExecuteCommand("bot_join_team T");
                     Server.ExecuteCommand("bot_add_t");
                 }
                 else if (player.TeamNum == (byte)CsTeam.Terrorist)
                 {
-                    _logger.LogDebug("Adding bot #{BotIndex}: bot_join_team CT, bot_add_ct", botIndex + 1);
+                    _logger.LogInformation("Adding bot #{BotIndex}: bot_join_team CT, bot_add_ct", botIndex + 1);
                     Server.ExecuteCommand("bot_join_team CT");
                     Server.ExecuteCommand("bot_add_ct");
                 }
@@ -821,7 +821,7 @@ public class OpenPrefirePrac : BasePlugin
             return;
         }
 
-        _logger.LogDebug("{PlayerName} moved to spawn point.", player.PlayerName);
+        _logger.LogInformation("{PlayerName} moved to spawn point.", player.PlayerName);
 
         // Only bot can crouch
         if (player.IsBot)
@@ -844,13 +844,13 @@ public class OpenPrefirePrac : BasePlugin
 
     private void FreezeBot(CCSPlayerController? bot)
     {
-        _logger.LogDebug("Trying to freeze a bot.");
+        _logger.LogInformation("Trying to freeze a bot.");
         if (bot != null &&
             bot is { IsValid: true, IsBot: true, IsHLTV: false, PawnIsAlive: true } 
             && bot.PlayerPawn.Value != null
         )
         {
-            _logger.LogDebug("Bot {BotName} freezed.", bot.PlayerName);
+            _logger.LogInformation("Bot {BotName} freezed.", bot.PlayerName);
 
             // bot.PlayerPawn.Value.MoveType = MoveType_t.MOVETYPE_OBSOLETE;
             bot.PlayerPawn.Value.MoveType = MoveType_t.MOVETYPE_VPHYSICS;
@@ -892,7 +892,7 @@ public class OpenPrefirePrac : BasePlugin
         if (player == null || !player.PawnIsAlive || player.Pawn.Value == null || hp < 0)
             return;
         
-        _logger.LogDebug("Setup player {PlayerName} with health.", player.PlayerName);
+        _logger.LogInformation("Setup player {PlayerName} with health.", player.PlayerName);
 
         if (hp > 100)
             player.Pawn.Value.MaxHealth = hp;
@@ -990,7 +990,7 @@ public class OpenPrefirePrac : BasePlugin
         beam.EndPos.Add(endPos);
         beam.DispatchSpawn();
 
-        _logger.LogDebug("Created a beam. Start position: {StartPos}, end position: {EndPos}, entity index: {BeamIndex}", startPos, endPos, beam.Index);
+        _logger.LogInformation("Created a beam. Start position: {StartPos}, end position: {EndPos}, entity index: {BeamIndex}", startPos, endPos, beam.Index);
         return (int)beam.Index;
     }
 
@@ -1051,7 +1051,7 @@ public class OpenPrefirePrac : BasePlugin
                 {
                     var value = tmpConvar.GetPrimitiveValue<bool>();
                     _serverStatus.BoolConvars.Add(convarName, value);
-                    _logger.LogDebug("{ConvarName}: {Value}", convarName, value);
+                    _logger.LogInformation("{ConvarName}: {Value}", convarName, value);
                 }
             }
 
@@ -1063,7 +1063,7 @@ public class OpenPrefirePrac : BasePlugin
                 {
                     var value = tmpConvar.GetPrimitiveValue<int>();
                     _serverStatus.IntConvars.Add(convarName, value);
-                    _logger.LogDebug("{ConvarName}: {Value}", convarName, value);
+                    _logger.LogInformation("{ConvarName}: {Value}", convarName, value);
                 }
             }
 
@@ -1075,7 +1075,7 @@ public class OpenPrefirePrac : BasePlugin
                 {
                     var value = tmpConvar.GetPrimitiveValue<float>();
                     _serverStatus.FloatConvars.Add(convarName, value);
-                    _logger.LogDebug("{ConvarName}: {Value}", convarName, value);
+                    _logger.LogInformation("{ConvarName}: {Value}", convarName, value);
                 }
             }
 
@@ -1087,7 +1087,7 @@ public class OpenPrefirePrac : BasePlugin
                 {
                     var value = tmpConvar.StringValue;
                     _serverStatus.StringConvars.Add(convarName, value);
-                    _logger.LogDebug("{ConvarName}: {Value}", convarName, value);
+                    _logger.LogInformation("{ConvarName}: {Value}", convarName, value);
                 }
             }
         }
@@ -1105,7 +1105,7 @@ public class OpenPrefirePrac : BasePlugin
                 _serverGameRules = Utilities.FindAllEntitiesByDesignerName<CCSGameRulesProxy>("cs_gamerules").First().GameRules!;
             }
             _serverStatus.WarmupStatus = _serverGameRules.WarmupPeriod;
-            _logger.LogDebug("Warmup Status: {WarmupStatus}", _serverGameRules.WarmupPeriod);
+            _logger.LogInformation("Warmup Status: {WarmupStatus}", _serverGameRules.WarmupPeriod);
         }
         catch (System.Exception)
         {
@@ -1755,7 +1755,7 @@ public class OpenPrefirePrac : BasePlugin
             enabled_breakables.Add("prop_dynamic");
         }
 
-        _logger.LogDebug("Have breakables: {EnabledBreakables}", enabled_breakables.Count);
+        _logger.LogInformation("Have breakables: {EnabledBreakables}", enabled_breakables.Count);
 
         // Loop to find breakables
         CEntityIdentity ?pEntity = new CEntityIdentity(EntitySystem.FirstActiveEntity);
