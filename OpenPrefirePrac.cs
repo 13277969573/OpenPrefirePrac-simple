@@ -162,7 +162,16 @@ public class OpenPrefirePrac : BasePlugin
     {
 
         var player = Utilities.GetPlayerFromSlot(slot);
-        _logger.LogWarning("OnClientPutInServerHandler Start {Slot} - {PlayerName},isBot: {IsBot}", slot, player?.PlayerName, player?.IsBot);
+        var teamName = player?.TeamNum switch
+        {
+            (byte)CsTeam.Terrorist => "T",
+            (byte)CsTeam.CounterTerrorist => "CT",
+            (byte)CsTeam.Spectator => "SPEC",
+            (byte)CsTeam.None => "NONE",
+            _ => "UNKNOWN"
+        };
+        _logger.LogWarning("OnClientPutInServerHandler Start Slot:{Slot} - {PlayerName}, isBot:{IsBot}, Team:{Team}({TeamNum})", 
+            slot, player?.PlayerName, player?.IsBot, teamName, player?.TeamNum);
 
         if (player == null || !player.IsValid || player.IsHLTV)
         {
@@ -246,7 +255,7 @@ public class OpenPrefirePrac : BasePlugin
 
     public void OnMapStartHandler(string map)
     {
-        _logger.LogWarning("OnMapStartHandler Start {MapName}", _mapName);
+        _logger.LogWarning("OnMapStartHandler Start {MapName}", map);
 
         _mapName = map;
 
@@ -282,7 +291,16 @@ public class OpenPrefirePrac : BasePlugin
     {
 
         var playerOrBot = @event.Userid;
-        _logger.LogWarning("OnPlayerSpawn Start {PlayerOrBotName} - {PlayerOrBotSlot},isBot: {IsBot}", playerOrBot?.PlayerName, playerOrBot?.Slot, playerOrBot?.IsBot);
+        var teamName = playerOrBot?.TeamNum switch
+        {
+            (byte)CsTeam.Terrorist => "T",
+            (byte)CsTeam.CounterTerrorist => "CT",
+            (byte)CsTeam.Spectator => "SPEC",
+            (byte)CsTeam.None => "NONE",
+            _ => "UNKNOWN"
+        };
+        _logger.LogWarning("OnPlayerSpawn Start {PlayerOrBotName} - Slot:{PlayerOrBotSlot}, isBot:{IsBot}, Team:{Team}({TeamNum})", 
+            playerOrBot?.PlayerName, playerOrBot?.Slot, playerOrBot?.IsBot, teamName, playerOrBot?.TeamNum);
         
         if (playerOrBot == null || !playerOrBot.IsValid|| playerOrBot.IsHLTV)
         {
@@ -770,19 +788,25 @@ public class OpenPrefirePrac : BasePlugin
 
     private void AddBot(CCSPlayerController player, int numberOfBots)
     {
-        _logger.LogInformation("AddBot: Creating {NumberOfBots} bots.", numberOfBots);
+        var playerTeamName = player.TeamNum == (byte)CsTeam.CounterTerrorist ? "CT" : "T";
+        var botTeamName = player.TeamNum == (byte)CsTeam.CounterTerrorist ? "T" : "CT";
+        _logger.LogInformation("AddBot: Creating {NumberOfBots} bots. Player in {PlayerTeam}, bots will join {BotTeam}", 
+            numberOfBots, playerTeamName, botTeamName);
 
         // Add bots directly (no request queue in single player mode)
         for (var i = 0; i < numberOfBots; i++)
         {
+            var botIndex = i;
             AddTimer(i * 0.1f, () => {
                 if (player.TeamNum == (byte)CsTeam.CounterTerrorist)
                 {
+                    _logger.LogDebug("Adding bot #{BotIndex}: bot_join_team T, bot_add_t", botIndex + 1);
                     Server.ExecuteCommand("bot_join_team T");
                     Server.ExecuteCommand("bot_add_t");
                 }
                 else if (player.TeamNum == (byte)CsTeam.Terrorist)
                 {
+                    _logger.LogDebug("Adding bot #{BotIndex}: bot_join_team CT, bot_add_ct", botIndex + 1);
                     Server.ExecuteCommand("bot_join_team CT");
                     Server.ExecuteCommand("bot_add_ct");
                 }
